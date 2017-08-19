@@ -10,7 +10,7 @@ Files
 
 HowTo create Apple dictionary from CSV
 --------------------------------------
-1.) Download pyglossary form here: https://github.com/ilius/pyglossary/archive/master.zip
-2.) Install all extra files for creating Apple dictionary and Mac OSX according to https://github.com/ilius/pyglossary/blob/master/README.md
-3.) Open a terminal and type: "python3 pyglossary-master/pyglossary.pyw --read-options=resPath=OtherResources --write-format=AppleDict dokuwa.csv dokuwa"
-4.) "cd dokuwa" and "make" will create the file "dokuwa.dictionary"
+- Download pyglossary form here: https://github.com/ilius/pyglossary/archive/master.zip
+- Install all extra files for creating Apple dictionary and Mac OSX according to https://github.com/ilius/pyglossary/blob/master/README.md
+- Open a terminal and type: "python3 pyglossary-master/pyglossary.pyw --read-options=resPath=OtherResources --write-format=AppleDict dokuwa.csv dokuwa"
+- "cd dokuwa" and "make" will create the file "dokuwa.dictionary"
