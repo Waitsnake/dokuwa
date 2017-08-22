@@ -8,6 +8,16 @@ Files
 - dokuwa.csv = dokuwa.txt convertet to CSV format (using VIM replacing: "/" to "," / "}" to ")" / "{" to " (" ) 
 - AppleDictionary/dokuwa.dictionary.zip = zipped Apple dictionary file (createt with pyglossary from CSV file)
 
+
+How I create the CSV from TXT in VIM
+------------------------------------
+1,$s/,/;/g
+1,$s/\(^[A-Z|a-z|ä|ü|ö|Ä|Ü|Ö|á|é|ß|\-|.|!| ]*\)/\1,/g
+1,$s/{/(/g
+1,$s/}/)/g
+1,$s/\// /g
+
+
 HowTo create Apple dictionary from CSV
 --------------------------------------
 - Download pyglossary form here: https://github.com/ilius/pyglossary/archive/master.zip
